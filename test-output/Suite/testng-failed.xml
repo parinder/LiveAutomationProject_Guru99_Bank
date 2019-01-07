@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" allow-return-values="true">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="IntegrationPlanning_Guru99_Bank.integrationPlanning">
+        <methods>
+          <include name="deleteCustomer"/>
+          <include name="customerNotAddedTwice"/>
+          <include name="deleteAccount"/>
+          <include name="miniStatementTest"/>
+          <include name="newAccountAdd"/>
+          <include name="CustomStatement"/>
+          <include name="EditAccountType"/>
+          <include name="customerIDNonExisting"/>
+          <include name="customerEditExistingEmail"/>
+          <include name="miniStatementTestNoNexistingAcc"/>
+          <include name="AccountIdExisting"/>
+          <include name="customerEdit"/>
+        </methods>
+      </class> <!-- IntegrationPlanning_Guru99_Bank.integrationPlanning -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
